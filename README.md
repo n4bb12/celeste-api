@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="resources/logo.svg" height="48">
+  <img alt="Logo" src="static/logo.svg" height="48">
   Celeste API
 </h1>
 

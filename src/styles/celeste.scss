@@ -1,5 +1,7 @@
 @import "fonts";
 
+$color--celeste: #24b03d;
+
 html {
   box-sizing: border-box;
   overflow-y: scroll;
@@ -14,7 +16,6 @@ html {
 body {
   margin: 0;
   background: #fafafa;
-  --color--celeste: #24b03d;
 
   *:not(.title) {
     font-family: 'Open Sans', sans-serif !important;
@@ -62,7 +63,7 @@ body {
     .title,
     p {
       font-weight: 300;
-      color: var(--color--celeste);
+      color: $color--celeste;
     }
 
     p {
