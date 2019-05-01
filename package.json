@@ -1,0 +1,34 @@
+{
+  "name": "celeste-api",
+  "version": "0.1.0",
+  "private": true,
+  "keywords": [],
+  "homepage": "https://github.com/n4bb12/celeste-api/blob/master/README.md",
+  "bugs": "https://github.com/n4bb12/celeste-api/issues",
+  "repository": "github:n4bb12/celeste-api",
+  "license": "ISC",
+  "author": "Abraham Schilling",
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".ts\"",
+    "dev": "netlify dev",
+    "lint": "tsc && eslint src/**/*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "eslint": "^5.16.0",
+    "netlify-cli": "^2.11.15",
+    "swagger-ui-dist": "^3.22.1",
+    "typescript": "^3.4.5"
+  },
+  "engines": {
+    "node": ">= 8.10"
+  },
+  "$schema": "http://json.schemastore.org/package"
+}
