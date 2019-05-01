@@ -10,5 +10,7 @@
   ],
   "produces": [
     "application/json"
-  ]
+  ],
+  "paths": {},
+  "definitions": {}
 }
