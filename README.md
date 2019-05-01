@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://api.iconify.design/logos-swagger.svg" height="48">
+  <img alt="Logo" src="resources/logo.svg" height="48">
   Celeste API
 </h1>
 
@@ -10,7 +10,7 @@
 <p align="center">
   <!-- <a href="https://api.projectceleste.com"> -->
   <a href="https://celeste-api.netlify.com">
-    <img alt="Next" src="https://flat.badgen.net/badge/API/Documentation/?icon=chrome&color=49A32B">
+    <img alt="Next" src="https://flat.badgen.net/badge/API/Documentation/?icon=chrome&color=24b03d">
   </a>
   <a href="https://raw.githubusercontent.com/n4bb12/celeste-api/master/LICENSE">
     <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/celeste-api?icon=github">
