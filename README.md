@@ -9,8 +9,9 @@
 
 <p align="center">
   <!-- <a href="https://api.projectceleste.com"> -->
+  <a href="https://celeste-api.netlify.com/">
     <img alt="Next" src="https://flat.badgen.net/badge/API/api.projectceleste.com/?icon=chrome">
-  <!-- </a> -->
+  </a>
   <a href="https://raw.githubusercontent.com/n4bb12/celeste-api/master/LICENSE">
     <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/celeste-api?icon=github">
   </a>
