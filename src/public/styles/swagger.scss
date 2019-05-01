@@ -1,0 +1,72 @@
+@import "fonts";
+
+body {
+  --color--celeste: #24b03d;
+
+  *:not(.title) {
+    font-family: 'Open Sans', sans-serif !important;
+  }
+}
+
+.swagger-ui {
+  .topbar {
+    display: none;
+  }
+
+  .information-container.wrapper {
+    max-width: unset;
+    margin: 0;
+
+    section {
+      position: relative;
+      width: 100%;
+      max-width: 1460px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+
+    section::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      width: 192px;
+      height: 192px;
+      background-size: 192px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background: url('./favicon-192x192.png');
+    }
+  }
+
+  .info {
+    margin: 0;
+    width: 550px;
+    max-width: 100%;
+
+    .title,
+    p {
+      font-weight: 300;
+      color: var(--color--celeste);
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    a {
+      color: black;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .swagger-ui {
+    .information-container.wrapper {
+      section::after {
+        display: none;
+      }
+    }
+  }
+}
