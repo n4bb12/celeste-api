@@ -3,6 +3,7 @@ module.exports = {
     [
       "@babel/env",
       {
+        exclude: ["transform-regenerator", "transform-async-to-generator"],
         loose: true,
         modules: "commonjs",
       },

@@ -1,0 +1,14 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Celeste API is part of:\n[Age of Empires Online – Celeste Fan Project](https://projectceleste.com)."
+  },
+  "host": "https://celeste-api.netlify.com",
+  "basePath": "",
+  "schemes": [
+    "https"
+  ],
+  "produces": [
+    "application/json"
+  ]
+}

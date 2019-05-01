@@ -1,6 +1,19 @@
 @import "fonts";
 
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
+  margin: 0;
+  background: #fafafa;
   --color--celeste: #24b03d;
 
   *:not(.title) {
@@ -9,7 +22,8 @@ body {
 }
 
 .swagger-ui {
-  .topbar {
+  .topbar,
+  .main .link {
     display: none;
   }
 
@@ -58,6 +72,10 @@ body {
     a {
       color: black;
     }
+  }
+
+  select {
+    font-size: 15px;
   }
 }
 
